@@ -1,4 +1,3 @@
-
 # This script downloads the data, reads it, and subsets it for Project 2
 
 # Get the file url

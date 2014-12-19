@@ -40,8 +40,7 @@ g <- g + facet_grid( . ~ fips)
 # Add labels. Print method automatically called.
 g + labs( x = "year", 
           y = expression("PM"[2.5]* " Emissions (Kilotons)"),
-          title = expression("PM"[2.5]* " Emissions from Motor Vehicles in 
-                             LA (06037) and Baltimore (24510) by Year") )
+          title = expression("PM"[2.5]* " Emissions from Motor Vehicles in LA (06037) and Baltimore (24510) by Year") )
 
 # Turn plotting device off              
 dev.off()
